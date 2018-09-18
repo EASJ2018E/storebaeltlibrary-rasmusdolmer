@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BilletLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:BilletLibrary.Bil">
+            <summary>
+            Bil klasse med 2 properties, en default constructor og 2 metoder
+            </summary>
+        </member>
+        <member name="M:BilletLibrary.Bil.#ctor(System.String,System.DateTime,System.Boolean)">
+            <summary>
+            Constructor med parametre fra base klassen køretøj
+            </summary>
+        </member>
+        <member name="M:BilletLibrary.Bil.Pris">
+            <summary>
+            Denne metode returnerer bilens pris. Metoden ligger i klassen køretøj og bliver heri overridet
+            </summary>
+            <returns>Returnerer en variabel af typen double som er 240</returns>
+        </member>
+        <member name="M:BilletLibrary.Bil.Køretøjet">
+            <summary>
+            Denne metode returnerer hvilket køretøj. Metoden ligger i klassen køretøj og bliver heri overridet
+            </summary>
+            <returns>Returnerer en variabel af typen string som er Bil</returns>
+        </member>
+        <member name="T:BilletLibrary.Køretøj">
+            <summary>
+            Dette er base klassen køretøj. Klasser som bil og MC arver fra denne klasse
+            </summary>
+        </member>
+        <member name="P:BilletLibrary.Køretøj.Nummerplade">
+            <summary>
+            String property til nummerplade med get set
+            </summary>
+        </member>
+        <member name="P:BilletLibrary.Køretøj.Dato">
+            <summary>
+            DateTime property til dato med get set
+            </summary>
+        </member>
+        <member name="P:BilletLibrary.Køretøj.Brobizz">
+            <summary>
+            Bool property til brobizz med get set
+            </summary>
+        </member>
+        <member name="M:BilletLibrary.Køretøj.#ctor(System.String,System.DateTime,System.Boolean)">
+            <summary>
+            Constructor med 2 parametre
+            </summary>
+        </member>
+        <member name="M:BilletLibrary.Køretøj.Pris">
+            <summary>
+            Denne metode returnerer MC'ens pris
+            </summary>
+            <returns>Returnerer en variabel af typen double som er 125</returns>
+        </member>
+        <member name="M:BilletLibrary.Køretøj.Køretøjet">
+            <summary>
+            Denne metode returnerer hvilket køretøj
+            </summary>
+            <returns>Returnerer en variabel af typen string som er MC</returns>
+        </member>
+        <member name="T:BilletLibrary.MC">
+            <summary>
+            MC klasse med 2 properties, en default constructor og 2 metoder
+            </summary>
+        </member>
+        <member name="M:BilletLibrary.MC.#ctor(System.String,System.DateTime,System.Boolean)">
+            <summary>
+            Constructor med parametre fra base klassen køretøj
+            </summary>
+        </member>
+        <member name="M:BilletLibrary.MC.Pris">
+            <summary>
+            Denne metode returnerer bilens pris. Metoden ligger i klassen køretøj og bliver heri overridet
+            </summary>
+            <returns>Returnerer en variabel af typen double som er 240</returns>
+        </member>
+        <member name="M:BilletLibrary.MC.Køretøjet">
+            <summary>
+            Denne metode returnerer hvilket køretøj. Metoden ligger i klassen køretøj og bliver heri overridet
+            </summary>
+            <returns>Returnerer en variabel af typen string som er Bil</returns>
+        </member>
+    </members>
+</doc>
